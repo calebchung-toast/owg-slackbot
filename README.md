@@ -1,7 +1,8 @@
-# slackbot-tutorial
+# OwG Quick Test Status Slackbot
 
-Code/tutorial updated to reflect Slack API v1 -> v2 changes. [Updated tutorial is available on Medium](https://medium.freecodecamp.org/how-to-build-a-basic-slackbot-a-beginners-guide-6b40507db5c5) as I cannot edit the content on freeCodeCamp's website.
+## Description
+To test incremental updates to OwG without waiting for the daily update, we have been using the Quick Test portal on the Reserve with Google page. However, only one person can use this portal at a time, which has led to people having to ask in the team channel if anyone is currently using it. As an alternative, I have created this slackbot where users can indicate that they are using the portal or check if anyone is currently using the portal.
 
-Used in conjunction with this [tutorial](https://medium.freecodecamp.org/how-to-build-a-basic-slackbot-a-beginners-guide-6b40507db5c5)
-
-Feel free to [tweet me @vishifishy](https://twitter.com/vishifishy) if you have any trouble, feedback, or wanna say thanks!
+## Usage
+To claim control over the portal, message @OwG Quick Test Status in Slack with the `/claim` command. If no one is using it, then you will gain control over the portal.
+When finished with the portal, use the `/done` command. This will free up the portal so others can use it!
